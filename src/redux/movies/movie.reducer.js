@@ -6,7 +6,7 @@ const INITIAL_STATE = {
     section: null,
     search: "",
     movies: [],
-    pageMax: 6
+    pageMax: 3
 };
 
 const reducer = (state = INITIAL_STATE, action) => {
