@@ -7,7 +7,7 @@ import { Row } from 'react-bootstrap';
 import { MovieAppHeader } from './MovieAppHeader';
 
 
-export default function AppWrapper(props) {
+export default function AppWrapper() {
     const [currentPage, setPage] = useState(1);
     const dispatch = useDispatch();
     const moviesState = useSelector(({ movies }) => movies);
