@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AppContainer from './container/AppContainer'
+import store from './redux/store';
+import { Provider } from 'react-redux'
+import GlobalFonts from './fonts/fonts'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GlobalFonts />
+    <Provider store={store}>
+      <AppContainer />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

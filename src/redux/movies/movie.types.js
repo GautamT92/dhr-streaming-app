@@ -1,0 +1,3 @@
+export const UPDATE_MOVIES = "UPDATE_MOVIES"
+export const UPDATE_SECTION = "UPDATE_SECTION"
+export const UPDATE_SEARCH = "UPDATE_SEARCH"
