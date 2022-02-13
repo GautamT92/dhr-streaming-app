@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { UPDATE_MOVIES, UPDATE_SEARCH, UPDATE_SECTION } from './movie.types';
 
-export const BASEURL = 'http://localhost:3000'
+export const BASEURL = `https://my-json-server.typicode.com/GautamT92/dhr-streaming-app/`
 
 export const addMovies = (currentPage) => {
     return dispatch => {
@@ -18,8 +18,6 @@ export const fetchConfig = () => {
     return dispatch => {
         axios.get(`${BASEURL}/section`).then((res) => {
             const section = res?.data;
-            console.log("Add Mvies", section
-            )
             dispatch({ type: UPDATE_SECTION, payload: section })
         })
     }
