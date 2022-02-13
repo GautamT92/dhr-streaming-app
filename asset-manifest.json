@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/dhr-streaming-app/static/css/main.c8838573.css",
+    "main.js": "/dhr-streaming-app/static/js/main.e8c27d79.js",
+    "static/js/787.48794ff6.chunk.js": "/dhr-streaming-app/static/js/787.48794ff6.chunk.js",
+    "static/media/TitilliumWeb-Light.ttf": "/dhr-streaming-app/static/media/TitilliumWeb-Light.2b8d1521998c2d55bb51.ttf",
+    "static/media/TitilliumWeb-Regular.ttf": "/dhr-streaming-app/static/media/TitilliumWeb-Regular.e53e0538893d432e0635.ttf",
+    "static/media/TitilliumWeb-Bold.ttf": "/dhr-streaming-app/static/media/TitilliumWeb-Bold.a267a8b6b783d7d62039.ttf",
+    "static/media/TitilliumWeb-Black.ttf": "/dhr-streaming-app/static/media/TitilliumWeb-Black.b06b28a5ea3d6c76e3f2.ttf",
+    "index.html": "/dhr-streaming-app/index.html",
+    "main.c8838573.css.map": "/dhr-streaming-app/static/css/main.c8838573.css.map",
+    "main.e8c27d79.js.map": "/dhr-streaming-app/static/js/main.e8c27d79.js.map",
+    "787.48794ff6.chunk.js.map": "/dhr-streaming-app/static/js/787.48794ff6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8838573.css",
+    "static/js/main.e8c27d79.js"
+  ]
+}
