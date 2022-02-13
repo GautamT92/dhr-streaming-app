@@ -40,9 +40,7 @@ export default function AppWrapper() {
 
     return (
         <StyledContainer fluid>
-            <Row>
-                <MovieAppHeader />
-            </Row>
+            <MovieAppHeader />
             <Row className='pl-5'>
                 {
                     filteredData.map((val, index) => <MovieCard key={val.id} ref={moviesState.movies.length === index + 1 ? lastValRef : null} val={val} />)
